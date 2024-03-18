@@ -22,6 +22,9 @@ const importAll = (r) => {
   const products = importAll(
     require.context('./products', false, /\.(png|jpe?g|svg)$/)
   )
+  const footers = importAll(
+    require.context('./footer', false, /\.(png|jpe?g|svg)$/)
+  )
   
-  export {images,offers,categories,flashSale,products} ;
+  export {images,offers,categories,flashSale,products,footers} ;
   
