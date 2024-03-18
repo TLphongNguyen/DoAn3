@@ -13,6 +13,15 @@ const importAll = (r) => {
   const offers = importAll(
     require.context('./offers', false, /\.(png|jpe?g|svg)$/)
   );
+  const categories = importAll(
+    require.context('./category', false, /\.(png|jpe?g|svg)$/)
+  )
+  const flashSale = importAll(
+    require.context('./sale', false, /\.(png|jpe?g|svg)$/)
+  )
+  const products = importAll(
+    require.context('./products', false, /\.(png|jpe?g|svg)$/)
+  )
   
-  export {images,offers} ;
+  export {images,offers,categories,flashSale,products} ;
   
