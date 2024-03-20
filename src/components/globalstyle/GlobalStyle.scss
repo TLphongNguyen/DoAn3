@@ -1,7 +1,7 @@
-@import 'normalize.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'normalize.css';
 body {
     font-family: "Helvetica Neue", Helvetica, Arial;
     line-height: 1.5;
@@ -56,10 +56,17 @@ ul {
     display: flex;
 }
 a[href] {
-    color: var(--text-color);
     text-decoration: none;
 }
 .container {
     width: 1200px;
+    margin: 0 auto;
+}
+.containerv2 {
+    width: 1040px;
+    height: 600px;
+    margin: 0 auto;
+}
+.margin-auto {
     margin: 0 auto;
 }

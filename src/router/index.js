@@ -5,10 +5,13 @@ import Profile from '~/Pages/Profile';
 
 
 
+
+
 const publicRoutes = [
     {path : '/', components : Home},
     {path : '/Products', components : Products},
     {path : '/profile', components : Profile},
+   
 
 
 

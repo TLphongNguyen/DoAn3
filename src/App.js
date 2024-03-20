@@ -2,10 +2,12 @@ import { BrowserRouter as Router , Route,Routes  } from 'react-router-dom'
 import { publicRoutes } from '~/router';
 import { DefaultLayout } from '~/Layout';
 import { Fragment } from 'react';
+import Login from './Pages/Login';
 function App() {
   return (
     <Router>
       <div className='app'>
+        {/* <Login /> */}
         <Routes>
           {publicRoutes.map((route,index)=> {
             const Page = route.components
