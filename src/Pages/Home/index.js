@@ -2,7 +2,7 @@ import styles from './home.module.scss';
 import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Sliner from '~/components/Sliner';
-
+import Header from '~/Layout/components/Header';
 import offersArray from '~/data/offers';                          
 import flashSaleArray from '~/data/flashSale';
 import moment from 'moment';
@@ -46,6 +46,7 @@ function Home() {
 
 	return (
 		<div className={cx('wrap-content')}>
+			<Header/>
 			<div className={cx('container')}>
 				<Sliner />
 				<ul className={cx('list-offers')}>
