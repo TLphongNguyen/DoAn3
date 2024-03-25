@@ -1,5 +1,3 @@
-
-
 import classNames from "classnames/bind";
 import styles from './defaultLayout.module.scss'
 import Footer from './Footer';
